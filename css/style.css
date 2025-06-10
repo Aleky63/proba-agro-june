@@ -51,7 +51,10 @@
 }
 body {
   font-size: 16px;
+  line-height: 1.35;
+  font-family: var(--font-family);
   background-color: var(--color-body);
+  color: var(--color-dark);
 }
 
 .header {
@@ -61,11 +64,16 @@ body {
   padding: 0 10px;
   margin: 0 auto;
 }
+.container-big {
+  max-width: 1840px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
 .header__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: var(--font-family);
+  padding: 30px 0;
   font-weight: 500;
 }
 .logo {
