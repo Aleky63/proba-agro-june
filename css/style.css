@@ -127,18 +127,24 @@ body {
   line-height: 1.2;
   font-family: var(--second-family);
 }
-.about__bottom {
-}
 .about__items {
   display: flex;
   justify-content: space-between;
+  gap: 5px;
+  margin-top: -50px;
   margin-bottom: 90px;
 }
+
 .about__item {
+  display: flex;
   border-radius: 20px;
   background-color: #f4f4e7;
+  max-width: 580px;
+  padding: 14px 10px;
+  gap: 0 25px;
 }
 .about__item-imgbox {
+  min-width: 214px;
 }
 .about__item-img {
 }
