@@ -99,3 +99,54 @@ body {
   color: var(--color-white);
   text-transform: uppercase;
 }
+
+.about {
+  margin-bottom: 150px;
+}
+
+.about__top {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-body);
+  background-image: url(../images/about.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 748px;
+}
+.about__title {
+  padding: 80px 0 0;
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 250px;
+  line-height: 0.9;
+}
+.about__text {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.2;
+  font-family: var(--second-family);
+}
+.about__bottom {
+}
+.about__items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.about__item {
+  border-radius: 20px;
+  background-color: #f4f4e7;
+}
+.about__item-imgbox {
+}
+.about__item-img {
+}
+.about__item-arrow {
+}
+.about__item-content {
+}
+.about__item-title {
+}
+.about__item-text {
+}
