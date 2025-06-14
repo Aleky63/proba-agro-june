@@ -208,18 +208,21 @@ body {
   color: var(--color-dark);
   opacity: 0.8;
 }
-
+.about__progress-text span {
+  font-weight: 500;
+}
 .about__progress-box {
   display: flex;
   gap: 140px;
 }
 .about__progress-img {
-  width: 33%;
+  /* width: 33%; */
 }
 .about__progress-info {
-  width: 67%;
+  /* width: 67%; */
 }
 .about__progress-boxtext {
+  margin-bottom: 45px;
 }
 
 .about__progress-table {
