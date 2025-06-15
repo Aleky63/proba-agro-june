@@ -241,3 +241,20 @@ body {
   font-size: 16px;
   opacity: 0.71;
 }
+.products {
+}
+.container-big {
+}
+.products__wrapper {
+  padding: 50px 0;
+  background-color: var(--color-gray);
+  border-radius: 20px;
+}
+.container {
+}
+.products__inner {
+}
+.products__title {
+  text-align: center;
+  text-transform: uppercase;
+}
