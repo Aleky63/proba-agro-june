@@ -204,35 +204,40 @@ body {
   font-family: var(--second-family);
   font-weight: 300;
   font-size: 40px;
-  line-height: 1.2;
+  line-height: 1.18;
   color: var(--color-dark);
   opacity: 0.8;
 }
-.about__progress-text span {
-  font-weight: 500;
-}
+
 .about__progress-box {
   display: flex;
-  gap: 140px;
+  gap: 0 140px;
 }
 .about__progress-img {
-  /* width: 33%; */
+  padding: 10px 0;
 }
 .about__progress-info {
-  /* width: 67%; */
+  font-size: 18px;
+  font-weight: 500;
 }
 .about__progress-boxtext {
-  margin-bottom: 45px;
+  padding: 15px 15px 5px 0;
+  margin-bottom: 48px;
+  line-height: 1.5;
 }
 
 .about__progress-table {
+  border-top: 1px solid rgba(14, 13, 13, 0.23);
 }
+
 .about__progress-item {
-  padding: 10px 0;
+  padding: 15px 0;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgba(14, 13, 13, 0.23);
 }
-.about__progress-item:first-child {
-  border-top: 1px solid rgba(14, 13, 13, 0.23);
+
+.about__progress-item dd {
+  font-size: 16px;
+  opacity: 0.71;
 }
