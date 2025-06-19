@@ -376,8 +376,6 @@ body {
   font-size: 20px;
   margin-bottom: 20px;
 }
-.partners__right {
-}
 
 .partners__right-top {
   display: flex;
@@ -392,7 +390,7 @@ body {
 .partners__right-top::before {
   content: "";
   position: absolute;
-  background-image: url(../images/logo2.svg);
+  background-image: url(../images/logo-2.svg);
   background-position: center;
   background-repeat: no-repeat;
   width: 63px;
@@ -476,10 +474,7 @@ body {
   align-items: center;
   gap: 0 24px;
 }
-.blog__item-img {
-}
-.blog__item-box {
-}
+
 .blog__item-info {
   font-weight: 600;
   font-size: 14px;
@@ -522,4 +517,39 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #667085;
+}
+.footer {
+  padding: 100px 0;
+  background-color: var(--color-dark);
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 115px;
+  margin-bottom: 30px;
+}
+
+.footer__top-title {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer__item + .footer__item {
+  padding-top: 15px;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px 0px 0px;
+  border-top: 1px solid var(--color-white);
+}
+.footer__bottom-item {
+  font-size: 14px;
+  text-align: right;
 }
