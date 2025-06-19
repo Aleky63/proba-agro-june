@@ -146,9 +146,9 @@ body {
   min-width: 214px;
   position: relative;
 }
-.about__item-img {
+/* .about__item-img {
   display: flex;
-}
+} */
 .about__item-arrow {
   border: none;
   position: absolute;
