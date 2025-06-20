@@ -316,8 +316,8 @@ body {
 }
 .button svg {
   position: absolute;
-  right: 3px;
-  top: 3px;
+  right: 1%;
+  top: 5%;
 }
 .products__link {
   display: block;
@@ -339,13 +339,14 @@ body {
   padding: 0;
   margin: 0;
   font-weight: 600;
-  font-size: 283px;
+  font-size: 250px;
   line-height: 1;
+  letter-spacing: -15px;
   color: var(--text-color);
 }
 .slogan__img {
   margin: auto;
-  margin-top: -145px;
+  margin-top: -125px;
 }
 .partners {
   padding: 130px 0 150px;
