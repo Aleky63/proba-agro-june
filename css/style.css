@@ -355,7 +355,7 @@ body {
 .partners__inner {
   display: flex;
   justify-content: space-between;
-  gap: 0 120px;
+  gap: 0 110px;
 }
 
 .partners__left {
@@ -499,6 +499,7 @@ body {
   line-height: 133%;
   color: #101828;
   position: relative;
+  padding-right: 25px;
 }
 .blog__item-title::after {
   content: "";
