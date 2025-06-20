@@ -18,18 +18,19 @@
     margin-top: -90px;
   }
   .partners {
-    padding: 80px 0 80px;
+    padding: 80px 0;
   }
   .partners__inner {
-    gap: 50px;
+    gap: 30px;
   }
   .partners__left {
-    max-width: 380px;
+    max-width: 350px;
     /* align-self: center; */
   }
   .partners__right-top {
     justify-content: space-around;
   }
+
   .button {
     align-self: center;
   }
@@ -39,14 +40,12 @@
 
   .blog__items {
     display: grid;
-    grid-template-columns: 380px auto;
+    grid-template-columns: 350px auto;
     grid-template-rows: 1fr 1fr;
     gap: 20px;
   }
   .blog__item-title {
     font-size: 20px;
-  }
-  .blog__item-img {
   }
 }
 
@@ -137,31 +136,26 @@
 
   .partners__right-top {
     flex-direction: column;
-    align-items: flex-start;
   }
-  .partners__right-top::before {
-    content: none;
-  }
-  .partners__right-top::after {
-    content: "";
-    position: absolute;
-    background-image: url(../images/logo-2.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 63px;
-    height: 56px;
-    top: 30px;
-    right: 20px;
+  .partners__right-list {
+    margin-top: 100px;
   }
 
   .partners__img {
     width: 100%;
   }
-
+  .partners__right-text {
+    padding: 20px;
+  }
+  .blog {
+    margin-bottom: 40px;
+  }
+  .blog__wrapper {
+    padding: 25px 0;
+  }
   .blog__items {
     display: grid;
     grid-template-columns: 1fr;
-
     gap: 32px;
   }
   .blog__item-link {
@@ -182,6 +176,13 @@
   }
   .blog__item-small .blog__item-img {
     width: 45%;
+  }
+  .footer__top {
+    flex-wrap: wrap;
+  }
+  .footer__logo {
+    width: 100%;
+    margin-bottom: 25px;
   }
 }
 @media (max-width: 480px) {
@@ -238,10 +239,16 @@
   .slogan__img {
     margin-top: -40px;
   }
+  .partners {
+    padding: 40px 0;
+  }
+
   .partners__right-top::after {
     content: none;
   }
-
+  .blog {
+    margin-bottom: 20px;
+  }
   .blog__item-small {
     display: flex;
     flex-direction: column;
@@ -303,16 +310,19 @@
   .slogan__img {
     margin-top: -20px;
   }
+  .partners__left-title {
+    font-size: 24px;
+  }
   .partners__right-list {
-    padding: 0;
+    padding: 5px;
   }
   .partners__img {
     padding-top: 20px;
   }
   .partners__right-text {
-    padding: 30px;
     font-size: 18px;
   }
+
   .blog__title {
     font-size: 24px;
   }
