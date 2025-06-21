@@ -109,13 +109,7 @@ body {
   width: 100%;
   height: 5px;
   background-color: var(--color-dark);
-  transition: background-color 0.5s;
-}
-.menu.menu--open .menu__list {
-  transform: translateY(0%);
-}
-.menu.menu--open .menu__btn span {
-  background-color: var(--color-dark);
+  transition: background-color 0.8s ease;
 }
 
 .header__contacts {
